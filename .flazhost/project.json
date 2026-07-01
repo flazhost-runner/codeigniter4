@@ -5,7 +5,7 @@
     "composer install"
   ],
   "migrate": [],
-  "start": "php spark serve --host 0.0.0.0 --port 8080",
-  "url": "http://localhost:8080",
+  "start": "php spark serve --host 0.0.0.0 --port ${APP_PORT}",
+  "url": "http://localhost:${APP_PORT}",
   "readyPath": "/"
 }
